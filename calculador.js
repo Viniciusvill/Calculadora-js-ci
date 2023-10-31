@@ -2,4 +2,8 @@ function somar(x,y){
     return x + y;
 }
 
-module.exports = { somar };
+function subtracao(x,y){
+    return x - y;
+}
+
+module.exports = { somar, subtracao };
