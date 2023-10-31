@@ -7,6 +7,7 @@ describe('Teste da Calculadora', () =>{
       expect(somar(2,2)).toBe(4);
       expect(somar(10,10)).toBe(20);
       expect(somar(10,1)).toBe(11);
+      expect(somar(10,2)).toBe(12);
     });
     
 });

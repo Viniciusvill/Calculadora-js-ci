@@ -17,9 +17,9 @@ jobs:
               uses: actions/checkout@v4
 
             - name: Configurar Node.js
-              uses: action/setup-node@v4
-              with:
-                node-version: 20
+              uses: actions/setup-node@v3
+                with:
+                    node-version: 18
 
             - name: Instalar dependencias
               run: npm install
